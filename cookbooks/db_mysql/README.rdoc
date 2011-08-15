@@ -10,6 +10,10 @@ See metadata.rb
 
 = USAGE:
 
-  * Clone this repo.  Clone the "Database Manager for MySQL 5.1 (Chef)" template.  Clone the "RightScale Premium" repo path.  Add this cookbook to the top.  Change the repo path on the cloned templated.
+  * Clone this repo.
+  * Clone the "Database Manager for MySQL 5.1 (Chef)" template.
+  * Clone the "RightScale Premium" repo path.
+  * Add this cookbook to the top.
+  * Change the repo path on the cloned templated.
   * Edit the my.cnf.erb file.  This is the configuration that will be installed.  
 
