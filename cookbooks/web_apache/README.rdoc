@@ -1,6 +1,6 @@
 = DESCRIPTION:
 
-Override the my.cnf installed by RightScale db_mysql cookbook.
+Override the apache2.conf installed by RightScale web_apache cookbook.
 
 = REQUIREMENTS:
 
@@ -11,9 +11,9 @@ See metadata.rb
 = USAGE:
 
   * Clone this repo.
-  * Clone the "Database Manager for MySQL 5.1 (Chef)" template.
+  * Clone the " (Chef)" template.
   * Clone the "RightScale Premium" repo path.
   * Add this cookbook to the top of the new repo path.
   * Change the repo path on the cloned templated.
-  * Edit the my.cnf.erb file.  This is the configuration that will be installed.  
+  * Edit the apache2.conf.erb file.  This is the configuration that will be installed.  
 
