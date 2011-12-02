@@ -6,7 +6,7 @@ A simple cookbook repository used to override the configuration files setup in o
 
 == Synopsis
 
-  * Clone this repo.
+  * Fork this repo.
   * Delete from the repo any application configuration files that are not needed.
   * Clone the associated ServerTemplate.
   * Clone the ServerTemplate repo path.
