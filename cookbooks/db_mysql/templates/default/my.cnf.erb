@@ -32,7 +32,7 @@ thread_cache_size       = <%= @node[:db_mysql][:tunable][:thread_cache_size] %>
 myisam-recover          = BACKUP
 #table_cache            = 64
 #thread_concurrency     = 10
-max_connections         = 100
+max_connections         = <%= @node[:db_mysql][:tunable][:max_connections] %>
 wait_timeout            = <%= @node[:db_mysql][:tunable][:wait_timeout] %>
 net_read_timeout        = <%= @node[:db_mysql][:tunable][:net_read_timeout] %>
 net_write_timeout       = <%= @node[:db_mysql][:tunable][:net_write_timeout] %>
